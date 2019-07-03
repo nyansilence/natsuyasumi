@@ -12,7 +12,9 @@ a.link {
 .mod-banner {
   /* background: #000; */
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px; }
   .mod-banner .logo {
     /* margin-bottom: 450px; */ }
   .mod-banner span {

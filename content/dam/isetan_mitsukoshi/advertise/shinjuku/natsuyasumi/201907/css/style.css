@@ -12,7 +12,9 @@ a.link {
 .mod-banner {
   /* background: #000; */
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px; }
   .mod-banner .logo {
     /* margin-bottom: 450px; */ }
   .mod-banner span {
@@ -90,10 +92,10 @@ a.link {
   display: none; }
 
 .text-content {
-  margin-bottom: 100px; }
+  margin-bottom: 30px; }
 
 .top-banner {
-  height: 100vh;
+  height: calc(100vh - 68px);
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
@@ -102,13 +104,16 @@ a.link {
   -webkit-justify-content: space-between;
   position: relative; }
 
+.top-banner-container {
+  padding: 0; }
+
 .text-content-pc {
   display: none; }
 
 .content-logo {
   position: absolute;
   right: 15px;
-  bottom: 70px;
+  bottom: 20px;
   max-width: 22px; }
 
 .mod-page {

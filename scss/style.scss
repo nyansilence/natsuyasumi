@@ -15,7 +15,8 @@ a.link {
     /* background: #000; */
     background-attachment: fixed;
     background-size: cover;
-
+    background-position: center;
+    margin-bottom: 50px;
     .logo {
         /* margin-bottom: 450px; */
     }
@@ -114,11 +115,11 @@ a.link {
 }
 
 .text-content {
-    margin-bottom: 100px;
+    margin-bottom: 30px;
 }
 
 .top-banner {
-    height: 100vh;
+    height: calc(100vh - 68px);
     display: flex;
     display: -webkit-flex;
     flex-direction: column;
@@ -128,6 +129,10 @@ a.link {
     position: relative;
 }
 
+.top-banner-container {
+    padding: 0;
+}
+
 .text-content-pc {
     display: none;
 }
@@ -135,7 +140,7 @@ a.link {
 .content-logo {
     position: absolute;
     right: 15px;
-    bottom: 70px;
+    bottom: 20px;
     max-width: 22px;
 }
 
