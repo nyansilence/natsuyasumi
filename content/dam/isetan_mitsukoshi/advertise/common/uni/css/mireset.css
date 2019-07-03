@@ -1,0 +1,126 @@
+/* 
+====================================
+mireset.css Jul.2018 
+====================================
+*/
+
+/*
+----------------
+body
+----------------
+*/
+
+body {
+  position: relative;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5rem; 
+  font-family: Helvetica Neue, Helvetica, Arial, 游ゴシック, Yu Gothic, 游ゴシック体, YuGothic, ヒラギノ角ゴ Pro W3, Hiragino Kaku Gothic Pro, Meiryo UI, メイリオ, Meiryo, ＭＳ Ｐゴシック, MS PGothic, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "pkna";
+}
+
+/*
+----------------
+anchor
+----------------
+*/
+
+/* bootstrap */
+
+a {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+	border-width: 0;
+}
+a:hover,
+a:focus {
+  color: #000;
+  text-decoration: none;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+/* masida add 20190328 */
+
+.aem-html-content.wrap a {
+  color: #000;
+  text-decoration: none;
+  outline: none;
+	border-width: 0;
+}
+.aem-html-content.wrap a:hover,
+.aem-html-content.wrap a:focus {
+  color: #000;
+  text-decoration: underline;
+}
+.aem-html-content.wrap a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+.footer-shop-list__item a { color: #fff; }
+.footer-shop-list__item a:hover { text-decoration: underline; }
+.footer-navi__item a { color: #fff; }
+.footer-navi__item a:hover { text-decoration: underline; }
+
+/*
+----------------
+breadcrumb
+----------------
+*/
+
+/* bootstrap */
+
+.breadcrumb {
+  padding: 0;
+  margin-bottom: 0;
+  list-style: none;
+  border-radius: 0;
+}
+
+.breadcrumb.header-breadcrumb { background-color: #fff;}
+
+/* common.css */
+
+.breadcrumb__item, .breadcrumb__item a, .breadcrumb__item span {
+  font-size: 1.3rem;
+}
+
+.sub-navi form input#header_search { font-size: 11px;}
+
+/*
+----------------
+heading
+----------------
+*/
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+font-family: inherit;
+font-weight: 600;
+line-height: 1.1;
+color: inherit;
+}
+
+/*
+----------------
+paragraph
+----------------
+*/
+
+.small-header__sub-title p {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 1.3rem;}
+
+
+
+/*EOF*/

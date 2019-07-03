@@ -1,0 +1,1157 @@
+/*
+================================================================
+proper.css
+================================================================
+*/
+
+/*
+------------------------------------------------
+cp common
+------------------------------------------------
+*/
+
+.no-gutter > [class*='col-']
+{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+img.fit
+{
+	width: 100%;
+	height: auto;
+}
+
+figure img.fig
+{
+	width: 100%;
+	height: auto;
+}
+
+/* nav */
+ul.nav { margin: 15px 0; }
+ul.nav > li { padding: 0 5px; }
+
+ul.nav > li > a
+{
+	border: 1px solid #999;
+	border-radius: 0;
+}
+
+/* list image */
+.list figure { margin-bottom: 30px; }
+figure.half img.fig { width: 50%; }
+
+figure.right img.fig
+{
+	float: right;
+	margin-left: 30px;
+}
+
+figure.left img.fig
+{
+	float: left;
+	margin-right: 30px;
+}
+
+header.page.common
+{
+	background-color: #999;
+	padding: 10px 0;
+}
+
+header.page.common h1 { margin-top: 0; }
+
+/*
+--------------------------------
+home
+--------------------------------
+*/
+
+.home .hero.bg
+{
+	background-color: #666;
+	background-image: url('/content/dam/cp/template/dum/16-09/food/01.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 600px;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+.home > .bg { background-color: #E7F5F7; }
+
+.home nav.grand .col.bg
+{
+	height: 160px;
+	color: white;
+	display: table;
+}
+
+.home nav.grand .col a
+{
+	display: table-cell;
+	width: 100%;
+	height: inherit;
+	vertical-align: middle;
+}
+
+/*
+--------------------------------
+index
+--------------------------------
+*/
+
+/*
+--------------------------------
+detail
+--------------------------------
+*/
+
+.page .hero.bg
+{
+	background-color: #666;
+	background-image: url('/content/dam/cp/template/dum/16-09/obje/04.jpg');
+	background-position: center center;
+	background-size: cover;
+	height: 600px;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+/*
+================================================================
+uni-base.css for store site 
+================================================================
+*/
+
+/* overriding cp-base.css for Noren "this is japan" */
+#im-brands img.mig-theme,
+#im-brands > a > img
+{
+	width: 148px;
+	height: auto;
+}
+
+/*
+================================================
+campaign common
+================================================
+*/
+
+body.cp#top .bodi { padding-top: 0; }
+body#top .drawer-overlay { padding: 0; }
+#top #top-head .inner { display: none; }
+#top #top-head.fixed .inner { display: block; }
+
+/*
+================================================
+compornents (site common)
+================================================
+*/
+
+.hero > .row,
+.CMP-Hero .row,
+.CMP-Navi-vt nav>.row
+{
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+/*
+------------------------------------------------
+hero carousel
+------------------------------------------------
+*/
+
+.pict_slide img
+{
+	width: 100%;
+	height: auto;
+}
+
+/*
+------------------------
+header (site common)
+------------------------
+*/
+
+.CMP-Hero .CMP-Heading
+{
+	text-align: center;
+	padding: 0 15px;
+}
+
+.CMP-Hero .CMP-Heading * {line-height: 1.5;}
+
+.CMP-Heading b { display: block; }
+
+/* header banner */
+.CMP-Hero .bg
+{
+	padding-right: 0;
+	padding-left: 0;
+	background-size: cover;
+	background-position: center center;
+}
+
+.CMP-Hero .bg .row > div { margin-bottom: 0!important; }
+
+.CMP-Hero .bg .CMP-Heading
+{
+	display: table;
+	width: 100%;
+}
+
+.CMP-Hero .bg .banner
+{
+	width: 100%;
+	height: 280px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.CMP-Hero .bg .banner.dark
+{
+	background-color: rgba(0,0,0,.5);
+	color: white;
+}
+
+/* header (only) */
+.CMP-Hero .row .header { margin-bottom: 0 !important;}
+
+
+
+/*
+------------------------------------------------
+footer im-brands
+------------------------------------------------
+*/
+
+#im-brands { padding: 30px 20px; }
+#im-brands, #im-brands p { text-align: center !important; }
+#im-brands a { color: #fff; }
+
+#im-brands a:hover
+{
+	-webkit-transition: opacity .3s cubic-bezier(.4,0,.2,1);
+	transition: opacity .3s cubic-bezier(.4,0,.2,1);
+	opacity: .8;
+	text-decoration: none;
+}
+
+#im-brands img.mig-theme,
+#im-brands > a > img
+{
+	width: 148px;
+	height: auto;
+}
+
+#im-brands p
+{
+	margin: 15px 0 0;
+	padding: 0;
+	font-size: 13px;
+	line-height: 1.8;
+}
+
+#im-brands ul { padding: 10px 0 0; }
+
+#im-brands li
+{
+	display: inline-block;
+	width: 128px;
+	margin: 0 0;
+}
+
+#im-brands li img
+{
+	width: 100%;
+	height: auto;
+}
+
+/*
+------------------------------------------------
+nav
+------------------------------------------------
+*/
+
+/*
+------------------------
+vertical nav (use SJK, KYT, ARE, IWT)
+------------------------
+*/
+
+.CMP-Navi-vt .CMP-Navi-Item { margin-bottom: 15px !important; }
+.CMP-Navi-vt .CMP-Navi-Item:first-child { margin-top: 15px; }
+
+.CMP-Navi-vt .CMP-Navi-Item > div
+{
+	display: table;
+	width: 100%;
+	background-size: /*auto 240px*/ cover;
+	background-position: center top;
+}
+
+.CMP-Navi-vt .CMP-Navi-Item > div a
+{
+	display: table-cell;
+	width: 100%;
+	height: 200px;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 1.8em;
+	color: #fff;
+	font-weight: 600;
+	padding: 15px;
+	background-color: rgba(0,0,0,.6);
+}
+
+.CMP-Navi-vt .CMP-Navi-Item > div a b { font-size: smaller; }
+
+.CMP-Navi-vt .CMP-Navi-Item > div a:hover
+{
+	background-color: rgba(0,0,0,.1);
+	text-decoration: none;
+}
+
+/*
+------------------------
+vertical nav bright (use SJK)
+------------------------
+*/
+
+.CMP-Navi-vt .bright .CMP-Navi-Item { margin-bottom: 35px !important; }
+.CMP-Navi-vt .bright .CMP-Navi-Item > div { display: block; }
+
+.CMP-Navi-vt .bright .CMP-Navi-Item > div a
+{
+	display: block;
+	width: 100%;
+	vertical-align: ;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	font-weight: 600;
+	background-color: rgba(0,0,0,0);
+	padding-top: 220px;
+}
+
+.CMP-Navi-vt .bright .CMP-Navi-Item > div a:hover
+{
+	background-color: rgba(0,0,0,0.5);
+	text-decoration: none;
+}
+
+/*
+------------------------
+horizontal nav (use SJK)
+------------------------
+*/
+
+.gnav .col
+{
+	background-size: cover;
+	background-position: center top;
+	display: table;
+	width: 100%;
+}
+
+.gnav .col a
+{
+	display: table-cell;
+	text-align: center;
+	height: 200px;
+	vertical-align: middle;
+	color: #000 !important;
+}
+
+.bodi ul.nav > li > a
+{
+	border: 2px solid #333;
+	color: #000;
+	font-weight: 600;
+}
+
+.CMP-Navi-hr .nav-arw li:first-child a:before { content:'◀ ';}
+.CMP-Navi-hr .nav-arw li:nth-child(2) a:before { content:'▲ ';}
+.CMP-Navi-hr .nav-arw li:last-child a:after { content:' ▶';}
+
+/* hr nav active */
+.CMP-Navi-hr .nav-se.se01 li:first-child a,
+.CMP-Navi-hr .nav-se.se02 li:nth-child(2) a,
+.CMP-Navi-hr .nav-se.se03 li:last-child a,
+.CMP-Navi-hr .nav-pa.pa01 li:first-child a,
+.CMP-Navi-hr .nav-pa.pa02 li:nth-child(2) a,
+.CMP-Navi-hr .nav-pa.pa03 li:nth-child(3) a,
+.CMP-Navi-hr .nav-pa.pa04 li:last-child a { background-color: rgba(0,0,0,0.2);}
+
+/*
+------------------------------------------------
+list (site common)
+------------------------------------------------
+*/
+
+figure img { width: 100%; }
+
+/* for empty element */
+figure img[src=""] { display: none;}
+
+figcaption *:empty { display: none;} 
+
+.spec b, .spec .shop
+{
+	display: block;
+	margin: 1rem 0;
+}
+
+/* single item centering */
+
+.col-md-3.single,
+.col-sm-3.single,
+.col-md-4.single,
+.col-sm-4.single,
+.col-md-6.single,
+.col-sm-6.single
+{
+	float: none;
+	margin: 0 auto;
+}
+
+/*
+------------------------
+detail template
+------------------------
+*/
+
+
+/*
+------------------------
+indecs template
+------------------------
+*/
+
+.list.index a figcaption h1,
+.list.index a figcaption h2,
+.list.index a figcaption h3
+{
+	font-size: 15px;
+	color: #000;
+	font-weight: 600;
+	margin-top: 8px;
+	line-height: 1.3;
+}
+
+/*
+================================================
+pages
+================================================
+*/
+
+/*
+------------------------------------------------
+home
+------------------------------------------------
+*/
+
+.home .wrap.bg
+{
+	background-color: #e1ebef;
+	padding: 30px 0;
+}
+
+/* 
+------------------------
+Carousel 
+------------------------
+*/
+
+.carousel.home h1 .logo
+{
+	width: 100%;
+	height: auto;
+}
+
+.home .CMP-Hero { position: relative; }
+
+.home .CMP-Hero .CMP-Heading .logo
+{
+	position: absolute;
+	margin: 0;
+	top: 55px;
+	left: 15px;
+	z-index: 10;
+	width: 270px;
+	height: 90px;
+	background-image: url('http://cp.miguide.jp/content/dam/cp/onlymi/cmn/logo-onlymi.png');
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+button.slick-arrow { z-index: 11; }
+button.slick-next { right: 15px; }
+button.slick-prev { left: 15px; }
+
+/* 
+------------------------
+Header
+------------------------
+*/
+
+header.home
+{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+header.home * { line-height: 1.4; }
+
+/* theme */
+header.home .theme { margin-bottom: 3em; }
+
+header.home .theme h1
+{
+	margin-top: 0;
+	font-weight: 600;
+	letter-spacing: 0.25em;
+	font-size: 3em;
+	padding-left: 1em;
+}
+
+header.home .theme h1 span { color: #d83a29; }
+
+header.home .theme p
+{
+	font-weight: 600;
+	letter-spacing: 0.1em;
+}
+
+/* title */
+header.home .title h1
+{
+	font-size: 1.4em;
+	font-weight: 600;
+	line-height: 1.4;
+}
+
+header.home .title .note { margin-top: 2em; }
+br.visible-xxs { display: none; }
+
+
+/* 
+------------------------
+Interview
+------------------------
+*/
+
+#Interview header
+{
+	font-family: serif;
+	font-weight: 600;
+	text-align: center;
+	letter-spacing: 0.1em;
+}
+
+#Interview header h1
+{
+	line-height: 1.4;
+	font-size: 2em;
+}
+
+#Interview header h1 small
+{
+	color: #000;
+	vertical-align: middle;
+	display: inline-block;
+	margin-bottom: 0.3em;
+}
+
+#Interview header p { margin: 1.5em 0; }
+#Interview .video { margin-bottom: 30px; }
+
+#Interview figure img.fig { display: inline-block; padding: 0 60px;}
+
+#Interview a.btn-ec { font-size: 9px; vertical-align: baseline; color: #fff;}
+
+.home .name
+{
+	margin: 1em 0 0.25em;
+	font-weight: 600;
+}
+
+.home .specs { font-size: smaller; }
+.specs + .specs { margin-top: 1em; }
+
+.home .specs > .note
+{
+	display: block;
+	font-weight: 600;
+	margin-bottom: 0.25em;
+}
+
+.home .spec { margin-bottom: 0.2em; }
+
+.home .spec b
+{
+	display: inline;
+	font-weight: 500;
+}
+
+/* 
+------------------------
+links
+------------------------
+*/
+
+.links .col-sm-4 { margin-bottom: 0 !important; }
+
+.col .banner
+{
+	display: table;
+	width: 100%;
+	border: 2px solid #000;
+}
+
+.col .banner a
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: #000;
+	font-weight: 600;
+	padding: 15px 5px;
+}
+
+.col .banner a .logo
+{
+	width: 180px;
+	height: auto;
+}
+
+.col .banner a span
+{
+	display: block;
+	margin-top: 0.5em;
+}
+
+.col .banner a:hover { text-decoration: none; }
+.col .banner a:hover { background: rgba(0,0,0,.2); }
+
+/*
+------------------------------------------------
+page common
+------------------------------------------------
+*/
+
+h1, h2, h3 { font-weight: 600;}
+
+body#contents .bodi {padding-bottom: 80px;}
+
+/* 
+========================
+sjk : common
+========================
+*/
+
+
+
+/*
+------------------------------------------------
+index temp.
+------------------------------------------------
+*/
+
+.index a { color: #000; }
+
+.index .list > a { display: block; }
+.index .list > a > div:hover { opacity: 0.8;}
+
+.index h3 { margin: 0.5em 0;}
+
+/* 
+========================
+only mi common
+========================
+*/
+
+.index h2 { text-align: center; font-weight: 600; margin: 1em 0; line-height: 1.3;}
+
+.CMP-Navi-hr + .CMP-Hero { margin-top: 20px;}
+.CMP-Navi-hr + .CMP-Hero h1 {margin: 20px 0;}
+
+.CMP-Navi-hr .CMP-Navi-Item a { white-space: nowrap;}
+
+/* related */
+div.related { padding: 0 40px 40px; border-top: 2px solid #333;}
+div.related .header {text-align: center; font-size: 20px; margin: 20px 0;}
+div.related img + figcaption { margin-top: 1em;}
+
+/* 
+========================
+sjk : special edition
+========================
+*/
+
+.index.se {margin: 80px auto 80px;}
+.index.se .list {margin-bottom: 80px;}
+.index.se .list:last-child {margin-bottom: 0;}
+
+.col-sm-12 h2 { text-align: center; line-height: 1.3;}
+.col-sm-12 h2 + p.lead {margin-top: 2em; font-size: 16px;}
+
+/* 
+========================
+sjk : park & the stage
+========================
+*/
+
+.col-sm-12.header { text-align: center;}
+.col-sm-12 p.lead { margin-top: 2em; font-size: 16px;}
+
+/* 
+========================
+sjk : lineup
+========================
+*/
+
+.index.lineup figure { margin-bottom: 0;}
+.index.lineup figcaption { height: 60px;}
+
+
+/*
+------------------------------------------------
+detail
+------------------------------------------------
+*/
+
+/* 
+========================
+only mi common
+========================
+*/
+
+
+
+/* 
+========================
+special edition
+========================
+*/
+
+
+
+/* 
+========================
+park & the stage
+========================
+*/
+
+
+/* 
+========================
+lineup
+========================
+*/
+
+/* 
+========================
+kyt : detail
+========================
+*/
+
+.CMP-Heading .space { margin: 120px 0 20px;}
+
+/* 
+========================
+are : common
+========================
+*/
+
+.CMP-Hero .area.md { margin-bottom: 60px !important;}
+
+.CMP-Hero h1.area.head { font-size: 24px;}
+
+/* store list labels*/
+.panel.stock { margin-bottom: 60px;}
+.panel-body.stores .label {border: 1px solid #ccc; color: #333; display: inline-block; padding : .4em .6em .2em !important;}
+.panel-body.stores p.note { margin: 1em 0 0 !important;}
+
+/* brand block head */
+
+.CMP-Hero .brand { margin-bottom: 30px; }
+
+.CMP-Hero .brand .CMP-Heading { text-align: center; padding: 0 15px;}
+.CMP-Hero .brand .CMP-Heading h1 { font-size: 24px; margin-bottom: 24px;}
+.CMP-Hero .brand .pict_slide img { width: auto ; height: auto; margin: 0 auto 20px ; display :block; }
+.CMP-Hero .brand .CMP-Heading .blanc { color: #fff;}
+
+/* brand block list */
+.brand figure { margin-top: 30px;}
+.brand figcaption h2 { font-size: 16px; margin-bottom: 2em;}
+.brand figcaption h2 b { display: block; font-weight: normal; font-size: smaller; margin: 0.5em 0;}
+.brand figcaption h2 i { display: block; font-style: normal; font-weight: normal; font-size: smaller;}
+.brand figcaption p.lead { font-size: 18px;}
+
+.brand.no21 { background-color: #eee;}
+.brand.no21 .CMP-Carousel .pict_slide { padding-bottom: 20px;}
+
+/* hack for IE10 higher */
+
+@media all and (-ms-high-contrast:none){
+
+  .style { color: #333; }
+
+}
+
+/*
+.area figure *:empty,
+.brand figure *:empty { display: block;}
+*/
+
+/* 
+========================
+are : home, column & cosme
+========================
+*/
+
+.CMP-Navi-vt .area .CMP-Navi-Item:first-child {margin-bottom: 60px !important;}
+.CMP-Navi-vt .area .CMP-Navi-Item:last-child {margin-top: 60px !important;}
+
+.CMP-Hero .area .CMP-Heading b {font-size: smaller;}
+.CMP-List_parts .area h2 {font-size: 24px; line-height: 1.4;}
+.CMP-List_parts .area.column h2 { border-bottom: 1px solid #000; padding-bottom: .2em;}
+.CMP-List_parts .area.cosme h2 {}
+.CMP-List_parts .area.cosme li { margin: .3em 0;}
+
+.CMP-List_parts .heroprice { margin-bottom: 80px !important; }
+
+.brand.profile .CMP-Image,
+.brand.profile .CMP-Heading { text-align: center;}
+.brand.profile .thumb { width: 160px; height: auto; display: inline-block; margin: 0 auto;}
+
+
+/* 
+========================
+iwt : md
+========================
+*/
+
+.CMP-List_parts .iwt figure { height: 820px;}
+
+.CMP-List_parts .iwt figure img { display: inline-block; margin-bottom: 10px;}
+
+.CMP-List_parts .iwt figure figcaption *:empty { display: block;} 
+
+/* 
+========================
+fmi : md
+========================
+*/
+
+.CMP-List_parts .fmi figure { height: 750px;}
+
+.CMP-List_parts .fmi figure img { display: inline-block; margin-bottom: 10px;}
+
+.CMP-List_parts .fmi figure figcaption *:empty { display: block;}
+
+/*
+================================================
+queries
+================================================
+*/
+
+/*
+------------------------
+ <1200 (md)
+------------------------
+*/
+
+@media (max-width: 1199px)
+{
+	
+}
+
+/*
+------------------------
+ <992 (sm)
+------------------------
+*/
+
+@media (max-width: 991px)
+{
+	
+}
+
+/*
+------------------------
+ =>768 & <992 
+------------------------
+*/
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	
+}
+
+/*
+------------------------
+ =>768
+------------------------
+*/
+
+@media (min-width: 768px)
+{
+	
+}
+
+/*
+------------------------
+ <768
+------------------------
+*/
+
+@media (max-width: 767px)
+{
+	#Interview .col-sm-4
+	{
+		float: left;
+		width: 50%;
+	}
+	
+	#Interview .col-sm-8
+	{
+		float: none;
+		clear: both;
+	}
+	
+	.home .CMP-Hero .CMP-Heading .logo
+	{
+		left: auto;
+		right: 15px;
+		width: 150px;
+		height: 50px;
+	}
+	
+	.home .wrap.bg { padding: 15px 0; }
+	.links .col { margin-bottom: 15px !important; }
+	.links .col:last-child { margin-bottom: 0 !important; }
+	
+	.CMP-List_parts .iwt figure,
+	.CMP-List_parts .fmi figure { height: auto;}
+}
+
+/*
+------------------------
+ <670
+------------------------
+*/
+
+@media (max-width: 669px)
+{
+	
+}
+
+/*
+------------------------
+ =>540 & =<630 
+------------------------
+*/
+
+@media (min-width: 540px) and (max-width: 630px)
+{
+	
+}
+
+/*
+------------------------
+ =<640 
+------------------------ 
+*/
+
+@media (max-width: 640px)
+{
+
+	#im-brands p
+	{
+		width: 280px;
+		margin: 15px auto 0;
+	}
+
+	#im-brands ul { padding: 10px 0 20px; }
+
+	#im-brands li
+	{
+		display: block;
+		margin: 10px auto 0;
+	}
+		
+}
+
+/*
+------------------------
+ =<600 
+------------------------ 
+*/
+
+@media (max-width: 600px)
+{
+	
+}
+
+/*
+------------------------
+ =<558
+------------------------ 
+*/
+
+@media (max-width: 558px)
+{
+	
+}
+
+/*
+------------------------
+ <540 
+------------------------ 
+*/
+
+@media (max-width: 539px)
+{
+	
+}
+
+/*
+------------------------
+ =<480 
+------------------------ 
+*/
+
+@media (max-width: 480px)
+{
+	#Interview .col-sm-4
+	{
+		float: none;
+		width: 100%;
+	}
+	
+	/* theme */
+	header.home .theme h1 { font-size: 2.1em; }
+	header.home .theme p { text-align: left; }
+	header.home .theme p br { display: none; }
+	
+	/* title */
+	header.home .title h1 { font-size: 1.1em; }
+	header.home .title .note { text-align: left; }
+	
+	/* interview */
+	#Interview header h1 { font-size: 1.3em; }
+	
+	#Interview header p
+	{
+		margin: 1.5em 0;
+		text-align: left;
+	}
+	
+	#Interview header p br { display: none; }
+}
+
+/*
+------------------------
+ <440 
+------------------------ 
+*/
+
+@media (max-width: 439px)
+{
+	
+}
+
+/*
+------------------------
+ =<414 
+------------------------ 
+*/
+
+@media (max-width: 414px)
+{
+	.home .CMP-Hero .CMP-Heading .logo
+	{
+		top: 150px;
+		left: 0;
+		right: 0;
+		margin: 0 auto;
+	}
+	
+	/* font-size smallize */
+
+	.page .CMP-Hero h1 {font-size: 20px;}
+	.CMP-Hero .brand .CMP-Heading h1,
+	.page .index h2,
+	.page .col-sm-12 h1,
+	.page .col-sm-12 h2,
+	.page .CMP-Hero h2,
+	.CMP-List_parts .area.column h2 { font-size: 18px;}
+	
+	.CMP-Hero h1.area.head { font-size: 16px;}
+	.CMP-Hero .brand .pict_slide img { width: 66% ; height: auto; margin: 0 auto 20px ; display :block; }
+}
+
+
+
+/*
+------------------------
+ =<393 
+------------------------ 
+*/
+
+@media (max-width: 393px)
+{
+	
+}
+
+/*
+------------------------
+ =<360
+------------------------ 
+*/
+
+@media (max-width: 360px)
+{
+	
+}
+
+/*
+------------------------
+ <375 
+------------------------ 
+*/
+
+@media (max-width: 374px)
+{
+	
+}
+
+/*
+------------------------
+ <350 
+------------------------ 
+*/
+
+@media (max-width: 349px)
+{
+	
+}
+
+/*
+------------------------
+ =<320
+------------------------ 
+*/
+
+@media (max-width: 320px)
+{
+	
+}

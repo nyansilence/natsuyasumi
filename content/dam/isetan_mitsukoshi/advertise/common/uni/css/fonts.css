@@ -1,0 +1,148 @@
+/*
+================================================================
+uni-fonts.css
+================================================================
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Cardo');
+
+/*
+++++++++++++++++++++++++++++++++
+@font-face
+++++++++++++++++++++++++++++++++
+*/
+
+/* Noto Sans */
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/NotoSansCJKjp-Thin.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/NotoSansCJKjp-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/NotoSansCJKjp-Thin.woff') format('woff'), /* Modern Browsers */
+    url('../fonts/NotoSansCJKjp-Thin.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 200;
+    src: url('../fonts/NotoSansCJKjp-Light.eot');
+    src: url('../fonts/NotoSansCJKjp-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-Light.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-Light.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/NotoSansCJKjp-DemiLight.eot');
+    src: url('../fonts/NotoSansCJKjp-DemiLight.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-DemiLight.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-DemiLight.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/NotoSansCJKjp-Regular.eot');
+    src: url('../fonts/NotoSansCJKjp-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-Regular.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/NotoSansCJKjp-Medium.eot');
+    src: url('../fonts/NotoSansCJKjp-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-Medium.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-Medium.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/NotoSansCJKjp-Bold.eot');
+    src: url('../fonts/NotoSansCJKjp-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-Bold.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-Bold.ttf')  format('truetype');
+}
+
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/NotoSansCJKjp-Black.eot');
+    src: url('../fonts/NotoSansCJKjp-Black.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/NotoSansCJKjp-Black.woff') format('woff'),
+    url('../fonts/NotoSansCJKjp-Black.ttf')  format('truetype');
+}
+
+/* Noto Serif */
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/NotoSerifCJKjp-ExtraLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/NotoSerifCJKjp-Light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/NotoSerifCJKjp-Regular.otf') format('opentype');
+ }
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/NotoSerifCJKjp-Medium.otf') format('opentype');
+ }
+
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/NotoSerifCJKjp-SemiBold.otf') format('opentype');
+ }
+
+@font-face {
+   font-family: 'Noto Serif Japanese';
+   font-style: normal;
+   font-weight: 700;
+  src: url('../fonts/NotoSerifCJKjp-Bold.otf') format('opentype');
+ }
+ 
+@font-face {
+  font-family: 'Noto Serif Japanese';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/NotoSerifCJKjp-Black.otf') format('opentype');
+ }
+ 
+/*
+Hannari (Japanese) https://fonts.google.com/earlyaccess
+*/
+
+@font-face {
+  font-family: 'Hannari';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Hannari.woff2') format('woff2'),
+       url('../fonts/Hannari.woff') format('woff');
+}

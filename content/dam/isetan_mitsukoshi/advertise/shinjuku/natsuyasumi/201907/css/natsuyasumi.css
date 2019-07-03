@@ -1,0 +1,124 @@
+.yukata_event {
+	font-family: 'Noto Sans Japanese', sans-serif !important;
+	font-size: 1.5rem;
+	line-height: 1.7;
+}
+
+.yukata_event button { background: #fff;}
+.yukata_event button:focus { outline: none;}
+.yukata_event img:focus { outline: none;}
+
+.yukata_event .list button img { transition: all 0.4s;}
+.yukata_event .list button img:hover { animation: key1 .2s ease 2 alternate;}
+@keyframes key1{ 0% {transform: translateY(0px);} 100% {transform: translateY(-6px);} }
+.yukata_event .list img + p { text-align: left; line-height: 1.5; font-size: 1.4rem;}
+.yukata_event .list .row-eq-height { display: flex; flex-wrap: wrap;}
+.yukata_event .list .row.row-eq-height .col-md-3 { width:24.9%;}
+
+
+.yukata_event .container-fluid { padding-left: 0; padding-right: 0;}
+.yukata_event .hero-area { background: url(/content/dam/isetan_mitsukoshi/advertise/shinjuku/yukata_event/201906/img/hero-pc.jpg) center center; background-size: cover; padding-top: 10rem; padding-bottom: 10rem;}
+.yukata_event .hero-area img { width: 800px;}
+
+.yukata_event .modal button:focus { outline: none;}
+.yukata_event .modal img:focus { outline: none;}
+
+.yukata_event { text-align: center;}
+.yukata_event .header { margin-bottom: 3rem;}
+.yukata_event .header .container .row > div { padding-left: 0; padding-right: 0;}
+.yukata_event .header .title { background: #e4007f; padding-top: 4rem; padding-bottom: 3rem; color: white;}
+.yukata_event .header .title h1 { margin: 0; font-size: 2rem; line-height: 1.7; margin-bottom: 2rem; font-weight: normal; letter-spacing: 0.2rem;}
+.yukata_event .header .title h1 span { font-weight: bold;}
+.yukata_event .header .title p { font-size: 1.6rem;}
+.yukata_event .header .title p.place { margin-bottom: 2rem;}
+.yukata_event .header .title p.lead { font-size: 1.8rem; line-height: 3rem; font-weight: 500;}
+
+.yukata_event .list .container .row > div { padding: 2.5rem;}
+.yukata_event .list img { width: 100%; margin-bottom: 1rem;}
+.yukata_event .modal .modal-lg { width: 75%; text-align: left; margin-top: 1rem; margin-left: auto; margin-right: auto;}
+.yukata_event .modal { z-index: 100000; background-color: rgba(255,255,255,1) !important;}
+.yukata_event .modal-header { border: none; text-align: right; padding-top: 0; padding-bottom: 0; margin-bottom: 1rem;}
+.yukata_event .modal-content { box-shadow: none; border: none;}
+.yukata_event .modal-header .btn-default { border: none; }
+.yukata_event .btn-default img { width: 40px;}
+.yukata_event .modal:before, .modal:after { height: 0;}
+.yukata_event .modal-body { margin-bottom: 1rem;}
+.yukata_event .modal-body img { margin-bottom: 2rem;}
+.yukata_event .modal-body h2 { font-size: 2.4rem; line-height: 1.7; margin-top: 0; margin-bottom: 2rem;}
+.yukata_event .modal-body h2  + p { text-align: left; margin-bottom: 2rem;}
+.yukata_event .modal-footer { border:none; text-align: center; padding-top: 0;}
+.yukata_event .modal-footer .btn-default { color: #e4007f; border-color: #e4007f;}
+.yukata_event .modal-body .event { margin-top: 2rem;}
+.yukata_event .modal-body .event h3  { font-size: 2rem; margin-top: 0; margin-bottom: 1rem;}
+.yukata_event .modal-body .event p { text-align: left;}
+.yukata_event .modal-body .event a { text-align: left; display: block; text-decoration: underline; color: blue;}
+.yukata_event .modal-body .prf { width: 40%; float: left; margin-top: 1rem;}
+.yukata_event .modal-body .prf2 { margin-top: 3rem; font-size: 1.4rem;}
+.yukata_event .modal-body .prf img { width: 100%; margin-bottom: 0; padding-right: 2rem;}
+.yukata_event .modal-body img.prf + p { display: block; margin-top: 1rem;}
+
+.yukata_event .banner { margin-top: 6rem; margin-bottom: 6rem; text-align: center;}
+.yukata_event .banner h3 { font-size: 2rem; font-weight: 500; margin-bottom: 1.5rem;}
+.yukata_event .banner h3 span { background: linear-gradient(transparent 60%, #ccffff 0%);}
+.yukata_event .banner p { text-align: left; color: #666; font-size: 1.4rem;}
+.container.sns { margin-bottom: 6rem;}
+
+.yukata_event .modal-body .flx { display: flex; align-items: center; justify-content: center;}
+.yukata_event .modal-body .flx h2 { padding-left: 2rem;}
+.yukata_event .modal-body .flx p { padding-left: 2rem;}
+.yukata_event .modal-body .flx2 { display: flex; align-items: start; justify-content: center;}
+
+.yukata_event .modal.fade { transition-duration: 0.2s; transition-property: all; transition: 0.2s linear !important; }
+.yukata_event .modal.in { transition-duration: 0.2s; }
+.yukata_event .modal.fade .modal-dialog { transition-duration: 0.2s; transform: translate3d(0, 0, 0); }
+.yukata_event .modal.in .modal-dialog { transition-duration: 0.2s; transform: translate3d(0, 0, 0); }
+
+
+@media (max-width: 1200px) {
+	.yukata_event .list .container .row > div { padding: 1.5rem;}
+
+	.yukata_event .modal-body h2 { font-size: 1.8rem; line-height: 1.7; margin-top: 0; margin-bottom: 2rem;}
+	.yukata_event .modal-body p { font-size: 1.4rem; margin-bottom: 1rem;}
+	.yukata_event .modal-body .prf2 p { font-size: 1.2rem;}
+	.yukata_event .modal-body .note { font-size: 1.2rem;}
+	.yukata_event .modal-body .event h3  { font-size: 1.8rem; margin-top: 0; margin-bottom: 1rem;}
+	.yukata_event .modal-body .flx h2 { padding-left: 0rem;}
+	.yukata_event .modal-body .flx p { padding-left: 0rem;}
+}
+
+@media (max-width: 991px) {
+	.yukata_event .container-fluid { padding-left: 0; padding-right: 0;}
+	.yukata_event .hero-area { background: url(/content/dam/isetan_mitsukoshi/advertise/shinjuku/yukata_event/201906/img/hero-sp.jpg) center center; background-size: cover; padding-top: 5rem; padding-bottom: 5rem;}
+	.yukata_event .hero-area img { width: 80%;}
+
+	.yukata_event .modal-body .flx { display: block;}
+	.yukata_event .modal-body .flx2 { display: block;}
+	.yukata_event .list .row.row-eq-height .col-sm-4 { width:33.2%;}
+	.yukata_event .list img { margin-bottom: 0.5rem;}
+	.yukata_event .list img + p { text-align: left; line-height: 1.5; font-size: 1.2rem;}
+}
+@media (max-width: 768px) {
+.yukata_event .list .row.row-eq-height .col-xs-6 { width:49.8%;}
+}
+@media (max-width: 580px) {
+	.yukata_event .header { margin-bottom: 2rem;}
+	.yukata_event .list .container .row > div { padding: 1rem;}
+	.yukata_event .header .container .row > div { padding: 0px;}
+	.yukata_event .header .container .row > div.title { padding: 2rem;}
+	.yukata_event .header .title p { font-size: 1.4rem;}
+	.yukata_event .header .title p.place { margin-bottom: 1rem;}
+	.yukata_event .header .title p.lead { font-size: 1.4rem; margin-bottom: 10px; line-height: 2.4rem; font-weight: 500;}
+	.yukata_event .btn-default img { width: 20px;}
+
+	.yukata_event .modal-header { margin-top: 1rem;}
+	.yukata_event .modal .modal-lg { width: 95%;  margin-top: 0rem;}
+	.yukata_event .modal-body h2 { font-size: 1.7rem; margin-bottom: 1rem;}
+	.yukata_event .modal .modal-body { text-align: left !important; font-size: 1.4rem; padding-top: 0;}
+	.yukata_event .modal-body .event h3  { font-size: 1.7rem; margin-top: 0; margin-bottom: 1rem;}
+	.yukata_event .modal-body .prf { width: 40%; float: left; margin-top: 1rem;}
+	.yukata_event .modal-body img.prf + p { font-size: 1rem;}
+	.yukata_event .modal-body .prf img { padding-right: 1rem;}
+	.yukata_event .modal-body .prf2 {margin-top: 3rem; font-size: 1.3rem; line-height: 1.5;}
+	.yukata_event .banner h3 { font-size: 1.6rem; font-weight: 500; margin-bottom: 1rem;}
+
+}
