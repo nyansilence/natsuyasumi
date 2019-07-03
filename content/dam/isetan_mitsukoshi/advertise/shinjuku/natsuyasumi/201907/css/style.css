@@ -1,6 +1,11 @@
 .img-responsive {
   max-width: 100%; }
 
+body {
+  font-family: 'Noto Sans Japanese', sans-serif !important;
+  font-size: 1.5rem;
+  line-height: 1.7; }
+
 a.link {
   position: absolute;
   display: block;
@@ -252,7 +257,7 @@ a.link {
     padding: 5px 0; }
   .page-content {
     padding: 0;
-    font-size: 1.4rem; }
+    font-size: 1.5rem; }
   .mod-banner .logo {
     margin-bottom: 150px; }
   .top-banner {
@@ -260,7 +265,7 @@ a.link {
   .content-item {
     max-width: 100%;
     margin: 0 auto 120px;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     padding: 15px;
     padding-right: 30px;
     padding-left: 0; }
