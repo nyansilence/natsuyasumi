@@ -368,7 +368,13 @@ a.link {
     margin-bottom: 60px;
 }
 
-
+.bg-background {
+    background-position: center center;
+    background-size: cover;
+    position: fixed;
+    left: 0;
+    width: 100%;
+}
 
 @media screen and (min-width: 768px) {
     .page-wrapper {
@@ -412,7 +418,6 @@ a.link {
     }
 
     .mod-banner {
-        background-attachment: inherit;
         .logo {
             margin-bottom: 150px;
             max-width: 100%;
