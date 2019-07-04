@@ -31,7 +31,7 @@ a.link {
         background: #000;
         color: #fff;
         display: inline-block;
-        padding: 2px;
+        padding: 2px 10px;
     }
 }
 
@@ -211,7 +211,7 @@ a.link {
 
 .page-wrapper {
     background: #fff;
-    max-width: 800px;
+    max-width: 526px;
     margin: 50px auto 0;
 }
 
@@ -333,6 +333,9 @@ a.link {
 }
 
 @media screen and (min-width: 768px) {
+    .page-wrapper {
+        max-width: 800px;
+    }
     .two-col {
         max-width: 50%;
         flex: 0 0 50%;
@@ -374,12 +377,10 @@ a.link {
         max-width: 100%;
         margin: 0 auto 120px;
         font-size: 1.5rem;
-        padding: 15px;
-        padding-right: 30px;
-        padding-left: 0;
+        padding: 15px 30px;
 
         &.item-reverse {
-            padding-right: 0;
+            padding-right: 30px;
             padding-left: 30px;
         }
     }
