@@ -36,7 +36,6 @@ a.link {
 }
 
 .click-content {
-    position: relative;
     display: inline-block;
     max-width: 40%;
     margin-bottom: -20%;
@@ -44,6 +43,7 @@ a.link {
 }
 
 .content-item {
+    position: relative;
     .title {
         max-width: 10%;
         margin-left: 10%;
@@ -185,8 +185,25 @@ a.link {
     }
 
     &.page-events {
+        color: #34DDF4;
         .title-label {
             background: #34DDF4;
+            color: #fff;
+        }
+    }
+
+    &.page-miyage {
+        color: #FF3CAA;
+        .title-label {
+            background: #FF3CAA;
+            color: #fff;
+        }
+    }
+
+    &.page-news {
+        color: #47BC09;
+        .title-label {
+            background: #47BC09;
             color: #fff;
         }
     }
@@ -218,6 +235,11 @@ a.link {
     padding: 0 22px;
     font-size: 1.2rem;
     margin-bottom: 20px;
+    a {
+        &:hover {
+            color: blue;
+        }
+    }
 }
 
 .top-title {
@@ -232,10 +254,9 @@ a.link {
 
 .content-img {
     margin-bottom: 20px;
-}
-
-.page-events {
-    color: #34DDF4;
+    img {
+        margin-bottom: 10px;
+    }
 }
 
 .black-box {
@@ -244,6 +265,10 @@ a.link {
     .page-container {
         padding: 10px 0;
     }
+}
+
+.blue-color {
+    color: #34DDF4;
 }
 
 .pink-color {
@@ -265,6 +290,7 @@ a.link {
     align-items: center;
     -webkit-align-items: center;
     border-bottom: 1px solid #ccc;
+    position: relative;
     &:nth-child(2) {
         border-top: 1px solid #ccc;
     }
@@ -273,7 +299,6 @@ a.link {
         flex: 0 0 98px;
     }
     .click-icon {
-        position: relative;
         max-width: 50px;
         flex: 0 0 50px;
     }
@@ -303,6 +328,9 @@ a.link {
     flex-wrap: wrap;
 }
 
+.page-item {
+    margin-bottom: 60px;
+}
 
 @media screen and (min-width: 768px) {
     .two-col {

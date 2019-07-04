@@ -29,13 +29,13 @@ a.link {
     padding: 2px; }
 
 .click-content {
-  position: relative;
   display: inline-block;
   max-width: 40%;
   margin-bottom: -20%;
   flex: 0 0 40%; }
 
 .content-item {
+  position: relative;
   padding: 10px;
   background: #fff;
   border-radius: 30px;
@@ -147,9 +147,21 @@ a.link {
       flex: 0 0 117px;
       background: #000 !important;
       transform: translateX(22px); }
-  .mod-page.page-events .title-label {
-    background: #34DDF4;
-    color: #fff; }
+  .mod-page.page-events {
+    color: #34DDF4; }
+    .mod-page.page-events .title-label {
+      background: #34DDF4;
+      color: #fff; }
+  .mod-page.page-miyage {
+    color: #FF3CAA; }
+    .mod-page.page-miyage .title-label {
+      background: #FF3CAA;
+      color: #fff; }
+  .mod-page.page-news {
+    color: #47BC09; }
+    .mod-page.page-news .title-label {
+      background: #47BC09;
+      color: #fff; }
 
 .page-wrapper {
   background: #fff;
@@ -174,6 +186,8 @@ a.link {
   padding: 0 22px;
   font-size: 1.2rem;
   margin-bottom: 20px; }
+  .page-content a:hover {
+    color: blue; }
 
 .top-title .title {
   max-width: 120px; }
@@ -183,15 +197,17 @@ a.link {
 
 .content-img {
   margin-bottom: 20px; }
-
-.page-events {
-  color: #34DDF4; }
+  .content-img img {
+    margin-bottom: 10px; }
 
 .black-box {
   background: #000;
   color: #fff; }
   .black-box .page-container {
     padding: 10px 0; }
+
+.blue-color {
+  color: #34DDF4; }
 
 .pink-color {
   color: #FF3CAA; }
@@ -209,14 +225,14 @@ a.link {
   padding: 20px;
   align-items: center;
   -webkit-align-items: center;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+  position: relative; }
   .two-col:nth-child(2) {
     border-top: 1px solid #ccc; }
   .two-col .img {
     max-width: 98px;
     flex: 0 0 98px; }
   .two-col .click-icon {
-    position: relative;
     max-width: 50px;
     flex: 0 0 50px; }
 
@@ -237,6 +253,9 @@ a.link {
   display: flex;
   display: -webkit-flex;
   flex-wrap: wrap; }
+
+.page-item {
+  margin-bottom: 60px; }
 
 @media screen and (min-width: 768px) {
   .two-col {
