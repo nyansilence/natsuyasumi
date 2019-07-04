@@ -16,7 +16,7 @@ a.link {
 
 .mod-banner {
   /* background: #000; */
-  background-attachment: scroll !important;
+  background-attachment: fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -269,13 +269,6 @@ a.link {
 .page-item {
   margin-bottom: 60px; }
 
-.bg-background {
-  background-position: center center;
-  background-size: cover;
-  position: fixed;
-  left: 0;
-  width: 100%; }
-
 @media screen and (min-width: 768px) {
   .page-wrapper {
     max-width: 800px; }
@@ -300,11 +293,9 @@ a.link {
   .page-content {
     padding: 0;
     font-size: 1.5rem; }
-  .mod-banner {
-    background-attachment: fixed !important; }
-    .mod-banner .logo {
-      margin-bottom: 150px;
-      max-width: 100%; }
+  .mod-banner .logo {
+    margin-bottom: 150px;
+    max-width: 100%; }
   .top-banner {
     height: auto; }
   .content-item {
