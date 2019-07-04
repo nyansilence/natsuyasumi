@@ -329,3 +329,13 @@ a.link {
     padding: 0 15px; }
   .mod-page .title-label {
     transform: translateX(0) !important; } }
+
+@media screen and (max-width: 345px) {
+  .mod-page .title-label {
+    max-width: 150px;
+    flex: 0 0 150px; }
+    .mod-page .title-label.bg-black {
+      max-width: 100px;
+      flex: 0 0 100px; }
+  .two-col {
+    font-size: 12px; } }
