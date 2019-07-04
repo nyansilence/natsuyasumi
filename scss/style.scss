@@ -21,11 +21,12 @@ a.link {
     /* background: #000; */
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     margin-bottom: 50px;
 
     .logo {
         /* margin-bottom: 450px; */
+        max-width: 88%;
     }
 
     span {
@@ -54,9 +55,23 @@ a.link {
         flex: 0 0 10%;
     }
 
-    &.item-reverse .title {
-        margin-left: 0;
-        margin-right: 8%;
+    p {
+        max-width: 60%;
+        flex: 0 0 60%;
+        display: inline-block;
+        padding-right: 10px;
+    }
+
+
+    &.item-reverse{
+        .title {
+            margin-left: 0;
+            margin-right: 8%;
+        }
+        p {
+            padding-right: 0;
+            padding-left: 10px;
+        }
     }
 
     .img {
@@ -66,13 +81,8 @@ a.link {
         margin-top: -30%;
     }
 
-    p {
-        max-width: 60%;
-        flex: 0 0 60%;
-        display: inline-block;
-    }
 
-    padding: 10px;
+    padding: 10px 15px;
     background: #fff;
     border-radius: 30px;
     /* display: flex;
@@ -132,8 +142,8 @@ a.link {
     display: -webkit-flex;
     flex-direction: column;
     -webkit-flex-direction: column;
-    justify-content: space-between;
-    -webkit-justify-content: space-between;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
     position: relative;
 }
 
@@ -214,6 +224,10 @@ a.link {
             background: #47BC09;
             color: #fff;
         }
+    }
+
+    .header img {
+        max-width: 200px;
     }
 }
 
@@ -308,13 +322,16 @@ a.link {
     }
 
     .img {
-        max-width: 98px;
-        flex: 0 0 98px;
+        max-width: 90px;
+        flex: 0 0 90px;
     }
 
     .click-icon {
         max-width: 50px;
         flex: 0 0 50px;
+    }
+    .content {
+        font-size: 1.1rem;
     }
 }
 
@@ -348,6 +365,8 @@ a.link {
     margin-bottom: 60px;
 }
 
+
+
 @media screen and (min-width: 768px) {
     .page-wrapper {
         max-width: 800px;
@@ -372,6 +391,9 @@ a.link {
             max-width: 70px;
             flex: 0 0 70px;
         }
+        .content {
+            font-size: 1.4rem;
+        }
     }
 
     .one-col {
@@ -388,6 +410,7 @@ a.link {
 
     .mod-banner .logo {
         margin-bottom: 150px;
+        max-width: 100%;
     }
 
     .top-banner {
@@ -492,8 +515,5 @@ a.link {
                 flex: 0 0 100px;
             }
         }
-    }
-    .two-col {
-        font-size: 12px;
     }
 }
