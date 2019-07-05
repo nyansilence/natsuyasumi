@@ -123,8 +123,6 @@ a.link {
     display: -webkit-flex;
     justify-content: space-between;
     -webkit-justify-content: space-between;
-    position: relative;
-    z-index: 2;
 }
 
 .bottom-item {
@@ -132,8 +130,6 @@ a.link {
     display: -webkit-flex;
     justify-content: space-between;
     -webkit-justify-content: space-between;
-    position: relative;
-    z-index: 1;
 }
 
 .item-blue {
@@ -146,10 +142,6 @@ a.link {
 
 .item-pink {
     color: #FF3CAA;
-}
-
-.content-item.item-blue .img {
-    margin-bottom: -10%;
 }
 
 .logo-pc {
@@ -169,6 +161,13 @@ a.link {
     justify-content: flex-end;
     -webkit-justify-content: flex-end;
     position: relative;
+
+    .logo-img {
+        max-width: 70px;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
 }
 
 .top-banner-container {

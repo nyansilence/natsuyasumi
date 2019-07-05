@@ -94,17 +94,13 @@ a.link {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
-  -webkit-justify-content: space-between;
-  position: relative;
-  z-index: 2; }
+  -webkit-justify-content: space-between; }
 
 .bottom-item {
   display: flex;
   display: -webkit-flex;
   justify-content: space-between;
-  -webkit-justify-content: space-between;
-  position: relative;
-  z-index: 1; }
+  -webkit-justify-content: space-between; }
 
 .item-blue {
   color: #34DDF4; }
@@ -114,9 +110,6 @@ a.link {
 
 .item-pink {
   color: #FF3CAA; }
-
-.content-item.item-blue .img {
-  margin-bottom: -10%; }
 
 .logo-pc {
   display: none; }
@@ -133,6 +126,11 @@ a.link {
   justify-content: flex-end;
   -webkit-justify-content: flex-end;
   position: relative; }
+  .top-banner .logo-img {
+    max-width: 70px;
+    position: absolute;
+    top: 15px;
+    right: 15px; }
 
 .top-banner-container {
   padding: 0; }
