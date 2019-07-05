@@ -17,6 +17,11 @@ a.link {
     left: 0;
 }
 
+.bg-white {
+    background: #fff;
+    padding: 6rem 0;
+}
+
 .mod-banner {
     /* background: #000; */
     background-attachment: fixed;
@@ -26,6 +31,19 @@ a.link {
     -o-background-size: cover;
     background-position: center center;
     margin-bottom: 50px;
+
+    &::before {
+        content: "";
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:-1;
+        width:100%;
+        height:100%;
+        background:url(../img/common/main.jpg) center center no-repeat;
+        background-size:cover;
+    }
 
     .logo {
         /* margin-bottom: 450px; */
@@ -170,7 +188,18 @@ a.link {
     background-attachment: fixed;
     margin-bottom: 50px;
     padding-bottom: 50px;
-
+    &::before {
+        content: "";
+        display:block;
+        position:fixed;
+        top:0;
+        left:0;
+        z-index:-1;
+        width:100%;
+        height:100%;
+        background:url(../img/common/main.jpg) center center no-repeat;
+        background-size:cover;
+    }
     .container {
         padding: 0 22px;
     }

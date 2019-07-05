@@ -20,3 +20,4 @@ if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
 
 //     $('.bg-background').css({top: $top, height: $height})
 // })
+
