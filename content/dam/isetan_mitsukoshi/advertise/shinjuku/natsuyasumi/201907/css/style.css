@@ -17,6 +17,8 @@ a.link {
 .bg-white {
   background: #fff;
   padding: 6rem 0; }
+  .bg-white .sns {
+    margin-bottom: 0; }
 
 .mod-banner {
   /* background: #000; */
