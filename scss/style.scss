@@ -33,7 +33,6 @@ a.link {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-position: center center;
-    margin-bottom: 50px;
 
     &::before {
         content: "";
@@ -58,6 +57,12 @@ a.link {
         color: #fff;
         display: inline-block;
         padding: 2px 10px;
+    }
+}
+
+.bottom-banner {
+    img {
+        margin-bottom: 20px;
     }
 }
 
