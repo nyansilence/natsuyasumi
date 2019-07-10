@@ -1,8 +1,9 @@
+@charset "UTF-8";
 .img-responsive {
   max-width: 100%; }
 
 body {
-  font-family: 'Noto Sans Japanese', sans-serif !important;
+  font-family: "ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO" !important;
   font-size: 1.5rem;
   line-height: 1.7; }
 
@@ -28,11 +29,10 @@ a.link {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-position: center center; }
-  .mod-banner::before {
+  .mod-banner .mod-background {
     content: "";
     display: block;
     position: fixed;
-    top: 0;
     left: 0;
     z-index: -1;
     width: 100%;
@@ -40,13 +40,17 @@ a.link {
     background: url(../img/common/main.jpg) center center no-repeat;
     background-size: cover; }
   .mod-banner .logo {
-    /* margin-bottom: 450px; */
+    margin-bottom: 20px;
     max-width: 88%; }
   .mod-banner span {
     background: #000;
     color: #fff;
     display: inline-block;
     padding: 2px 10px; }
+  .mod-banner .black-box {
+    padding: 10px 0; }
+    .mod-banner .black-box p {
+      margin: 0; }
 
 .bottom-banner img {
   margin-bottom: 20px; }
@@ -171,7 +175,8 @@ a.link {
     display: -webkit-flex;
     justify-content: space-between;
     -webkit-justify-content: space-between;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    display: none; }
   .mod-page .title-label {
     padding: 5px 0;
     max-width: 200px;
@@ -188,16 +193,28 @@ a.link {
     .mod-page.page-events .title-label {
       background: #34DDF4;
       color: #fff; }
+    .mod-page.page-events .page-item {
+      border-bottom: 1px solid #34DDF4; }
+      .mod-page.page-events .page-item:last-child {
+        border: 0; }
   .mod-page.page-miyage {
     color: #FF3CAA; }
     .mod-page.page-miyage .title-label {
       background: #FF3CAA;
       color: #fff; }
+    .mod-page.page-miyage .page-item {
+      border-bottom: 1px solid #FF3CAA; }
+      .mod-page.page-miyage .page-item:last-child {
+        border: 0; }
   .mod-page.page-news {
     color: #47BC09; }
     .mod-page.page-news .title-label {
       background: #47BC09;
       color: #fff; }
+    .mod-page.page-news .page-item {
+      border-bottom: 1px solid #47BC09; }
+      .mod-page.page-news .page-item:last-child {
+        border: 0; }
   .mod-page .header img {
     max-width: 200px; }
 
@@ -224,6 +241,8 @@ a.link {
   padding: 0 22px;
   font-size: 1.2rem;
   margin-bottom: 20px; }
+  .page-content:last-child {
+    margin-bottom: 0; }
   .page-content a:hover {
     color: blue; }
 
@@ -295,9 +314,11 @@ a.link {
   flex-wrap: wrap; }
 
 .page-item {
-  margin-bottom: 60px; }
+  padding: 30px 0; }
 
 @media screen and (min-width: 768px) {
+  .bottom-banner .container {
+    max-width: 747px; }
   .page-wrapper {
     max-width: 800px; }
   .two-col {
@@ -324,8 +345,18 @@ a.link {
   .mod-banner .logo {
     margin-bottom: 150px;
     max-width: 100%; }
+  .mod-banner .container {
+    max-width: 747px; }
+  .mod-banner .black-box {
+    text-align: center; }
   .top-banner {
     height: auto; }
+  .top-title {
+    justify-content: center;
+    -webkit-justify-content: center; }
+    .top-title .icon {
+      margin-left: 30px;
+      margin-right: 100px; }
   .content-item {
     max-width: 100%;
     margin: 0 auto 120px;
@@ -334,29 +365,25 @@ a.link {
     .content-item.item-reverse {
       padding-right: 30px;
       padding-left: 30px; }
-  .mod-banner .container {
-    max-width: 747px; }
-  .top-title {
-    justify-content: center;
-    -webkit-justify-content: center; }
-    .top-title .icon {
-      margin-left: 30px;
-      margin-right: 100px; }
-  .content-item .img {
-    max-width: 40%;
-    margin-top: -15%;
-    flex: 0 0 40%; }
-  .content-item .title {
-    max-width: 8%; }
-  .content-item.item-blue .img {
-    margin-bottom: 0; }
-  .content-item.item-green .img {
-    margin-top: -25%; }
-  .content-item.item-pink .img {
-    margin-top: -22%; }
+      .content-item.item-reverse .title {
+        margin-left: 0;
+        margin-right: 0; }
+    .content-item .img {
+      max-width: 55%;
+      margin-top: -15%;
+      flex: 0 0 55%; }
+    .content-item .title {
+      max-width: 8%;
+      margin-left: 0; }
+    .content-item.item-blue .img {
+      margin-bottom: 0; }
+    .content-item.item-green .img {
+      margin-top: -25%; }
+    .content-item.item-pink .img {
+      margin-top: -22%; }
   .click-content {
-    max-width: 30%;
-    flex: 0 0 30%; }
+    max-width: 40%;
+    flex: 0 0 40%; }
   .logo-pc {
     display: block; }
   .logo-sp {

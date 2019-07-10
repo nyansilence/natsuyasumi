@@ -10,6 +10,16 @@ if(navigator.userAgent.match(/Trident\/7\./)) { // if IE
     });
 }
 
+$('.mod-background').css({top: $('.breadcrumb').offset().top + $('.breadcrumb').height(), height: 'calc(100vh - ' + $('.mod-banner').offset().top + ')'})
+
+$(window).scroll(function() {
+    if($('#globalHeader').hasClass('is-fixed')) {
+        $('.mod-background').css({top: 0})
+    } else {
+        $('.mod-background').css({top: $('.breadcrumb').offset().top + $('.breadcrumb').height()})
+    }
+})
+
 // $(document).ready(function(){
 //     var $top
 //     var $height
