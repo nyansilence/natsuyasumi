@@ -201,7 +201,7 @@ a.link {
     background-attachment: fixed;
     margin-bottom: 50px;
     padding-bottom: 50px;
-    &::before {
+    .mod-background {
         content: "";
         display:block;
         position:fixed;

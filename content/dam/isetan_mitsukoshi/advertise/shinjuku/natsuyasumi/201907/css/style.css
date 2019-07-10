@@ -155,7 +155,7 @@ a.link {
   background-attachment: fixed;
   margin-bottom: 50px;
   padding-bottom: 50px; }
-  .mod-page::before {
+  .mod-page .mod-background {
     content: "";
     display: block;
     position: fixed;
