@@ -353,6 +353,9 @@ a.link {
     max-width: 747px; }
   .mod-banner .black-box {
     text-align: center; }
+  .mod-banner span {
+    font-size: 1.4rem;
+    padding: 2px 8px; }
   .top-banner {
     height: auto; }
   .top-title {
