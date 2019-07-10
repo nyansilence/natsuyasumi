@@ -144,15 +144,15 @@ a.link {
 }
 
 .item-blue {
-    color: #34DDF4;
+    color: #03bff8;
 }
 
 .item-green {
-    color: #47BC09;
+    color: #4acc04;
 }
 
 .item-pink {
-    color: #FF3CAA;
+    color: #fa1ba4;
 }
 
 .logo-pc {
@@ -246,15 +246,15 @@ a.link {
     }
 
     &.page-events {
-        color: #34DDF4;
+        color: #03bff8;
 
         .title-label {
-            background: #34DDF4;
+            background: #03bff8;
             color: #fff;
         }
 
         .page-item {
-            border-bottom: 1px solid #34DDF4;
+            border-bottom: 1px solid #03bff8;
             &:last-child {
                 border: 0;
             }
@@ -262,15 +262,15 @@ a.link {
     }
 
     &.page-miyage {
-        color: #FF3CAA;
+        color: #fa1ba4;
 
         .title-label {
-            background: #FF3CAA;
+            background: #fa1ba4;
             color: #fff;
         }
 
         .page-item {
-            border-bottom: 1px solid #FF3CAA;
+            border-bottom: 1px solid #fa1ba4;
             &:last-child {
                 border: 0;
             }
@@ -278,15 +278,15 @@ a.link {
     }
 
     &.page-news {
-        color: #47BC09;
+        color: #4acc04;
 
         .title-label {
-            background: #47BC09;
+            background: #4acc04;
             color: #fff;
         }
 
         .page-item {
-            border-bottom: 1px solid #47BC09;
+            border-bottom: 1px solid #4acc04;
             &:last-child {
                 border: 0;
             }
@@ -362,15 +362,20 @@ a.link {
 }
 
 .blue-color {
-    color: #34DDF4;
+    color: #03bff8;
 }
 
 .pink-color {
-    color: #FF3CAA;
+    color: #fa1ba4;
 }
 
 .green-color {
-    color: #47BC09;
+    color: #4acc04;
+}
+
+.item-title {
+    font-weight: 500;
+    font-size: 1.8rem;
 }
 
 .two-col {
